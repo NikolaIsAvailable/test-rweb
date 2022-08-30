@@ -33,7 +33,6 @@ class CryptoTable extends Component
 
     public function render()
     {
-        // var_dump($this->cryptoData);
         return view('livewire.crypto-table', ['cryptoData' => $this->cryptoData]);
     }
 
